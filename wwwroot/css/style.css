@@ -1,0 +1,34 @@
+﻿* {
+    outline: none;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    direction: rtl;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: right;
+    font-family: system-ui;
+    padding: 1rem;
+    line-height: 1.75;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 0.5rem;
+    color: #869ab8;
+}
+.table tr td, .table tr th {
+    background: #F2F6FE;
+    border: 0px;
+    vertical-align: middle;
+}
+.table th, .table td {
+    padding:1rem;
+    font-weight: 600;
+}
+
+.table-responsive{
+    padding: 1rem 4rem;
+}

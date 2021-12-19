@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <StartupObject></StartupObject>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\style.css" />
+    <None Include="wwwroot\fonts\cryptocoins.woff2" />
+    <None Include="wwwroot\index.html" />
+    <None Include="wwwroot\js\prices.js" />
+    <None Include="wwwroot\js\signalr.js" />
+    <None Include="wwwroot\js\signalr.js.map" />
+    <None Include="wwwroot\js\signalr.min.js" />
+    <None Include="wwwroot\js\signalr.min.js.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CoinEx.Net" Version="4.2.5" />
+  </ItemGroup>
+
+</Project>
